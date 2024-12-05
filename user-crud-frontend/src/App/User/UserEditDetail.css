@@ -1,0 +1,49 @@
+/* UsersDetail.css */
+
+.users-detail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .user-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    background-color: #fff;
+    margin-top: 60px;
+  }
+  
+  .user-detail-row {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .user-detail-label {
+    min-width: 100px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .button-wrapper {
+    margin-left: 20px; /* Add margin to each button wrapper */
+  }
+  
+  /* styles.css */
+  :root {
+    --custom-background-color: #f0f0f0; /* Your desired background color */
+  }
+  
+  body {
+    background-color: var(--custom-background-color);
+  }
+  

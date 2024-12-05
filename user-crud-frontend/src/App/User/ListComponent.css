@@ -1,0 +1,30 @@
+/* Container for the list page */
+.user-list-container {
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+
+/* Table Styling */
+.MuiTable-root {
+  min-width: 700px;
+}
+
+.MuiTableCell-root {
+  font-size: 16px;
+  padding: 16px;
+}
+
+/* Action Buttons */
+.MuiButton-containedSecondary, .MuiButton-containedError {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+/* Table container */
+.MuiTableContainer-root {
+  box-shadow: none;
+}

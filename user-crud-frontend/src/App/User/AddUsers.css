@@ -1,0 +1,54 @@
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column; /* Change to column layout */
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Background color */
+  margin-bottom: 80px;
+}
+
+/* Card Styling */
+.card {
+  width: 35%;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  padding-bottom: 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Form Field */
+.form-field {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Button Styling */
+button {
+  font-size: 14px;
+  padding: 6px 16px;
+}
+
+/* For the 'Cancel' and 'Submit' buttons to align properly */
+.MuiBox-root {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Style for text inputs */
+.MuiTextField-root {
+  margin-bottom: 10px;
+}

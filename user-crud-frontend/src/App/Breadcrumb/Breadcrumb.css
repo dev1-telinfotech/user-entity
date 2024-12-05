@@ -1,0 +1,33 @@
+/* src/App/Breadcrumb/Breadcrumb.css */
+.breadcrumb {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.5rem;
+    list-style: none;
+    background-color: #b7c0c55b;
+    border-radius: 0.25rem;
+  }
+  
+  .breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    color: #6c757d;
+    content: "/";
+  }
+  
+  .breadcrumb-item a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .breadcrumb-item a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  .breadcrumb-item.active {
+    color: #6c757d;
+  }
+  
